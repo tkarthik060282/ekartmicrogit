@@ -1,0 +1,13 @@
+spring:
+#datasoure properties
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/ekartdb
+#JPA sepecific properties
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+message: Catalog of products
