@@ -10,4 +10,4 @@ spring:
       ddl-auto: update
     show-sql: true
     open-in-view: false
-message: Catalog of products
+message: Hello
